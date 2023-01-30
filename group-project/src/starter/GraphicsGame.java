@@ -536,5 +536,45 @@ public class GraphicsGame extends GraphicsProgram implements ActionListener{
     	}
     	return colsMoved;
     }
-
+	 
+    //Since this group project is two years old, I do not recall most of the code. Also I only did a part of the project so I'm not really 
+    //understand most of the code. I also had some issue to build the project so I don't think I can debug.
+    
+    public int totalMove = 0;
+    
+    private void findLegalMove(Piece piece) {
+    	switch(piece){
+    	case "pawn":
+    		//check possible move, add all possible move to totalMove
+    		break;
+    	case "knight":
+    		//check possible move, add all possible move to totalMove
+    		break;
+    	case "bishop":
+    		//check possible move, add all possible move to totalMove
+    		break;
+    	case "rook":
+    		//check possible move, add all possible move to totalMove
+    		break;
+    	case "queen":
+    		//check possible move, add all possible move to totalMove
+    		break;
+    	case "king":
+    		//check possible move, add all possible move to totalMove
+    		break;
+    	}
+    }
+    private int randomPickMove() {
+    	int Order = 0;
+    	//random number generater and set it to Order
+    	totalMove = 0;
+    	return Order;
+    }
+    
+    public int orderNum = randomPickMove();
+    
+    private void finalMove(orderNum) {
+    	//repeat search find move until reached the order
+    	//play the move
+    }
 }
