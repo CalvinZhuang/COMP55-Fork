@@ -24,3 +24,8 @@ A function that increase the globle variable by 1 per each moves when running th
 Random number generater a number from 1 to the total moves
 
 A selected move function taht runs the findMove function and return the detemine random number move and reset the globle variable back to 0.
+
+
+Added new code to the main file. I can not test it out but what should be happen is having a new signle player mode. 
+Oppoent will do moves after player moved. This was very stressful because I am not very good at Java and all the pieces funciton are coded by my teammates. 
+If the project for this assignemnt is not COMP55 project, I think I can actually do a great job. 
